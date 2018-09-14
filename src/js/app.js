@@ -29,7 +29,7 @@ App = {
       // Set the provider for our contract.
       App.contracts.TutorialToken.setProvider(App.web3Provider);
 
-      // Use our contract to retieve and mark the adopted pets.
+      // Use our contract to retieve balances.
       return App.getBalances();
     });
 
